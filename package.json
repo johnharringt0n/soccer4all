@@ -1,0 +1,34 @@
+{
+  "name": "soccer4all",
+  "version": "1.0.0",
+  "description": "soccer4all website redesign",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "John Harrington",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnharringt0n/soccer4all"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.15.1",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  },
+  "engines": {
+    "node": "7.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}

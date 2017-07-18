@@ -1,0 +1,23 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "no-console": 0,
+        "indent": 0,
+        "no-use-before-define": ["error",{"functions": false}],
+        "spaced-comment": 0,
+        "import/newline-after-import": 0,
+        "no-unused-vars": 0,
+        "no-trailing-spaces": ["error",{"skipBlankLines": true}],
+        "newline-per-chained-call": 0,
+        "comma-spacing": 0,
+        "max-len": 0,
+        "no-restricted-syntax": 0,
+        "camelcase": 0
+    },
+    "options": {
+        "indent": ["tab","error"]
+    }
+}
