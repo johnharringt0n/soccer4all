@@ -1516,3 +1516,8 @@ h6 {
 .my-button:hover {
   background-color: #4fa258;
 }
+.coaches {
+  width: 285px;
+  height: 285px;
+  object-fit: cover;
+}
