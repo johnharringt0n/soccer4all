@@ -321,7 +321,7 @@ h6 {
  */
 .overlay-color {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 /**
  * ====================================
@@ -1534,4 +1534,16 @@ h6 {
 }
 .clickable {
   cursor: pointer;
+}
+.sponsors {
+  border: 1px solid gray;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsors img {
+  max-height: 230px;
+  width: auto;
 }
