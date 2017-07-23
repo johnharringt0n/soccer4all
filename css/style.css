@@ -1521,3 +1521,17 @@ h6 {
   height: 285px;
   object-fit: cover;
 }
+.coverage p {
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+}
+.coverage img {
+  max-width: 450px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.clickable {
+  cursor: pointer;
+}

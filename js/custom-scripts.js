@@ -150,9 +150,9 @@
     var testimonialSlider = $(".testimonial-wrapper"); // client's message
     testimonialSlider.owlCarousel({
       singleItem :        true,
-      autoPlay :          3000,
-      slideSpeed :        500,
-      paginationSpeed :   500,
+      autoPlay :          8000,
+      slideSpeed :        1000,
+      paginationSpeed :   1000,
       autoHeight :        false,
       navigation:         false,
       pagination:         true,
