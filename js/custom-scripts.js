@@ -159,6 +159,20 @@
       // transitionStyle:    "fade"
     });
 
+    //++++++++++++++++++
+    // ABOUT PAGE CAROUSEL
+    //++++++++++++++++++
+    const aboutSlider = $("#aboutSlider");
+    aboutSlider.owlCarousel({
+      singleItem: true,
+      autoPlay: 3000,
+      slideSpeed: 1000,
+      paginationSpeed: 1000,
+      autoHeight: false,
+      navigation: false,
+      pagination: true,
+    });
+
 
 
 
